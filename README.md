@@ -4,7 +4,6 @@
 [![License](https://img.shields.io/github/license/chiukapoor/go-stack)](https://github.com/chiukapoor/go-stack/blob/main/LICENSE)
 [![Docker Repository](https://img.shields.io/badge/docker-repo-blue)](https://hub.docker.com/r/csociety/go-stack)
 
-
 ## Description
 
 This repository contains a simple implementation of a thread-safe stack in Go. It includes concurrent push and pop operations, unit tests, and a Dockerfile for containerization.
@@ -31,10 +30,10 @@ This repository contains a simple implementation of a thread-safe stack in Go. I
 go run main.go
 ```
 
-#### Docker 
+#### Docker
 
 ```bash
-docker run csociety/go-stack
+docker run -d csociety/go-stack 
 ```
 
 #### Kubernetes
