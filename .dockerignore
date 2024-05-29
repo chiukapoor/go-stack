@@ -1,0 +1,24 @@
+# Exclude the GitHub Actions workflows
+.github/
+
+# Exclude Git repository files
+.git
+.gitignore
+
+# Exclude Go test files
+stack/stack_test.go
+
+# Exclude local Go build files and caches
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Exclude any local environment files
+.env
+
+Dockerfile
+README.md
